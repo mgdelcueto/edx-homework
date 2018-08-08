@@ -361,3 +361,5 @@ ggplot(gapminder,aes(income,infant_survival_rate,color=group,label=country))+
   scale_x_continuous(trans ="log2",limit=c(.5,150))+
   geom_point(size=3)
 
+library(dslabs)
+
